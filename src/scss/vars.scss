@@ -1,0 +1,23 @@
+
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+$yellow-basic:#edce01;
+$link-text:#000b29;
+$blue-basic:#4d85bd;
+$body-skin:#ffec9c;
+$review-card:rgba(	90	,136	,187,0.8);
+@mixin bordered($radius:2){
+    border-radius: #{$radius}rem;
+}
+@mixin flex($horizontalPlacment,$direction:row){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $horizontalPlacment;
+    align-items: center;
+}
+
+@mixin handlerBg(){
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
