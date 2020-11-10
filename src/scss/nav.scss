@@ -52,6 +52,16 @@ button{
         left: 20%;
         line-height: 30%;
         top:10%;
+            &:first-child{
+                top: 0%;
+            }
+            &:nth-child(2){
+                top: 50%;
+            }
+            &:last-child{
+                top: 100%;
+                
+            }
         
     }
 }
@@ -118,6 +128,7 @@ button{
 @media only screen and (max-device-width  : 768px) {
     .burger{
         @include flex(space-around,column);
+        transform: scale(2) translateX(-10px);
         .bar{
             display: block;
         }

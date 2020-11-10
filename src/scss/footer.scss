@@ -49,5 +49,11 @@ html{
 @media only screen and (max-device-width  : 500px) {
   .footer {
     flex-direction: column;
+      p{
+      font-size: 4rem;
+      }
+      .footer-link-item{
+           font-size: 4rem;   
+      }
   }
 }

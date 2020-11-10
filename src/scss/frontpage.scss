@@ -15,7 +15,7 @@
             height: 100%;
             @include flex(space-around,column);
             .banner-descr-text{
-                color: $link-text;
+                color: #c60099;
                 font-size: 3rem;
                 padding: 3rem;
             }
@@ -212,12 +212,19 @@ main{
     .banner .banner-descr {
     width: 70%;
     left: 25%;
+    justify-content: space-between;
+    padding: 10% 0;
         button{
-            padding: 1rem 3rem; 
         }
         .banner-descr-text {
         font-size: 8rem;
-    }    
+            
+        }
+        a{
+            padding: 1rem 3rem; 
+            font-size: 5rem;
+                
+        }
 }
 
    
@@ -225,6 +232,7 @@ main{
     .reviews .reviews-wrapper .reviews-wrapper-item {
         padding: 0;
         margin: 1rem 0;
+        height: 100%;
         .reviews-item-img{
             width: 50%;
             margin-bottom: 2rem;
